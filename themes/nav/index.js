@@ -289,6 +289,10 @@ const LayoutSlug = props => {
             {post?.title}
           </h1>
 
+          <div className="mt-2 mb-4 text-gray-500">
+            上次更新：{post?.publishDay}
+          </div>
+
           {/* Notion文章主体 */}
           {post && (
             <section className='px-1'>

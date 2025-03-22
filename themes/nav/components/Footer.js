@@ -12,28 +12,6 @@ const Footer = ({ siteInfo }) => {
     <footer className='z-20 pt-2 pb-5 bg:white dark:bg-hexo-black-gray justify-center text-center w-full text-xs relative'>
       {/* <hr className='pb-2' /> */}
 
-      <div className='flex justify-center'>
-        <div>
-          <i className='text-xs mx-1 animate-pulse fas fa-heart' />
-          <a
-            href={siteConfig('LINK')}
-            className='underline font-bold text-gray-500 dark:text-gray-300 '>
-            {siteConfig('AUTHOR')}
-          </a>
-          .<br />
-        </div>
-        © {`${copyrightDate}`}
-      </div>
-
-      <div className='text-xs font-serif py-1'>
-        Powered By{' '}
-        <a
-          href='https://github.com/tangly1024/NotionNext'
-          className='underline text-gray-500 dark:text-gray-300'>
-          NotionNext {siteConfig('VERSION')}
-        </a>
-      </div>
-
       {siteConfig('BEI_AN') && (
         <>
           <i className='fas fa-shield-alt' />{' '}

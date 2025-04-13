@@ -436,6 +436,14 @@ const ExternalPlugin = props => {
         </>
       )}
 
+      {/* 天机统计 */}
+        <script
+          async
+          defer
+          src="https://tianji.b3nnn.com/tracker.js"
+          data-website-id="cm9fjqbih0001894duminu689"
+        />
+
       {/* Matomo 统计 */}
       {MATOMO_HOST_URL && MATOMO_SITE_ID && (
         <script
